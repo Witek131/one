@@ -7,7 +7,7 @@ con = sqlite3.connect(input())
 print("Hell")
 # Создание курсора
 cur = con.cursor()
-
+print('Hell')
 # Выполнение запроса и получение всех результатов
 result = cur.execute("""SELECT * FROM films WHERE title like 'Х%'""").fetchall()
 print(result)
