@@ -4,7 +4,7 @@ import sqlite3
 
 # Подключение к БД
 con = sqlite3.connect(input())
-
+print("Hell")
 # Создание курсора
 cur = con.cursor()
 
